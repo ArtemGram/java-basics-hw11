@@ -9,8 +9,9 @@ public class Lambda {
      * @return lambda expression.
      */
     public static BiFunction<Double, Double, Double> getMax() {
-        return (a,b) -> { if(a > b)
-            return a;
+        return (a,b) -> {
+                if (a > b)
+             return a;
             else return b;
         };
     }
